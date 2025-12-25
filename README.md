@@ -21,4 +21,8 @@ mimcs the Flat torque region (if part)
 above 4000 RPM torque decreases linerly 
 mimcs mechanical constrains (else part)
 
-stage 5 : to be continued
+stage 5 : Added Multi gear ratio. 
+used persistent (memory based logic method)
+persistent is the correct modeling choice for discrete control logic.
+
+also added a logging in this stage to check the time vs gear plot
